@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIC CCS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">UIC <span>CCS</span></div>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">About CCS</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Shaping the Future of <span class="highlight">Technology</span></h1>
+    <p>The College of Computer Studies (CCS) at the University of the Immaculate Conception in Davao City provides premier, industry-aligned computing education designed for 2026 readiness.</p>
+  </section>
+
+  <!-- Our Academic Programs Section -->
+  <section class="programs-section">
+    <h2>OUR ACADEMIC PROGRAMS</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>BS Computer Science (BSCS)</h3>
+        <p>Focuses on computational theory, algorithmic complexity, and advanced software structures.</p>
+      </div>
+      <div class="card">
+        <h3>BS Information Systems (BSIS)</h3>
+        <p>Bridges the gap between technical business solutions and organizational workflows.</p>
+      </div>
+      <div class="card">
+        <h3>BS Information Technology (BSIT)</h3>
+        <p>Focuses on network administration, security systems, and responsive web applications development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program Specifications Matrix Section -->
+  <section class="matrix-section">
+    <h2>PROGRAM SPECIFICATIONS MATRIX</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>ACADEMIC PROGRAM</th>
+            <th>CORE OUTCOMES</th>
+            <th>EXPECTED CAREER PATHS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>BSCS</strong></td>
+            <td>Analyze complex problems and apply computing principles</td>
+            <td>Software Engineer, Systems Developer</td>
+          </tr>
+          <tr>
+            <td><strong>BSIS</strong></td>
+            <td>Design and manage organizational data-workflow solutions</td>
+            <td>Systems Analyst, Database Admin</td>
+          </tr>
+          <tr>
+            <td><strong>BSIT</strong></td>
+            <td>Configure, integrate, and secure network infrastructure</td>
+            <td>Network Admin, Web Developer</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Program Inquiry Form Section -->
+  <section class="inquiry-section">
+    <div class="form-card">
+      <h2>PROGRAM INQUIRY FORM</h2>
+      <form>
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" value="Juan Dela Cruz">
+        </div>
+        <div class="form-group">
+          <label for="program">Program of Interest:</label>
+          <select id="program">
+            <option selected>Bachelor of Science in Computer Science</option>
+            <option>Bachelor of Science in Information Systems</option>
+            <option>Bachelor of Science in Information Technology</option>
+          </select>
+        </div>
+        <button type="submit">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 University of the Immaculate Conception - College of Computer Studies, Davao City, Philippines. Prepared for its CS100-23 Practical Exam.</p>
+  </footer>
+
+</body>
+</html>
